@@ -83,20 +83,28 @@ body {
 }
 
 #blog-links {
+  border-radius:10px;
   background-color: hsla(0, 90%, 90%, 0.2);
   color:black;
   padding:40px;
 }
 
 .blog-link{
-padding:4px;
+padding:10px;
 text-decoration: none;
-border-radius:2px
+border-radius:100px
 }
 
 .blog-link:hover{
   color:purple;
+  background-color: hsla(0, 100%, 100%, 0.6);
 }
+
+.blog-link:active{
+  background-color: hsla(0, 100%, 100%, 1);
+  border-style: inset;
+}
+
 
 #identity {
   height:100vh;
@@ -109,3 +117,8 @@ border-radius:2px
   background-color: hsla(0, 100%, 100%, 0.6);
   font-weight:600;
 }
+
+.main-title {
+
+text-decoration: underline;
+
