@@ -119,24 +119,36 @@ body {
 
 #identity {
   background-color: hsla(0, 100%, 100%, 0.8);
-  padding: 10px;
+  padding: 20px;
 }
 
 #blog-entry-1 {
+  line-height: 1.9;
+  font-size:20px;
   text-indent: 50px;
   padding: 80px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  font-weight: 600;
 }
 
 .sub-headers {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex-direction: column;
+  flex-direction: row-reverse;
+  justify-items: center;
+}
+
+#milk{
+  width:300px;
+  border-radius: 80px;
+}
+#sleep{
+  width:250px;
+  border-radius: 80px;
+
 }
 
 .entry-header {
