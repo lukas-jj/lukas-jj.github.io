@@ -85,6 +85,8 @@ body {
   background-color: hsla(0, 90%, 90%, 0.2);
   color: black;
   padding: 40px;
+  display:flex;
+  flex-direction: column;
 }
 
 .blog-link {
