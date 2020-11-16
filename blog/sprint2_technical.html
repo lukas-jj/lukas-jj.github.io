@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Identity, Value and Strengths </title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="/styles/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <nav id="nav">
+    <a class="nav-link" href="https://lukas-jj.github.io/">Home</a>
+    <a class="nav-link" href="https://lukas-jj.github.io/blog/blog-list">Blog</a>
+    <a class="nav-link" target="_blank" src="https://github.com/lukas-jj" href="https://github.com/lukas-jj">Github</a>
+  </nav>
+  <div class="blog-entry">
+    <div class="page">
+      <a id="back-button" href="https://lukas-jj.github.io/blog/blog-list">Back to Blog Entries</a>
+      <div class="headers">
+        <h1 class="main-title">How to use Class and ID in HTML/CSS</h1>
+        <h3>16 November 2020</h3>
+      </div>
+      <p>When using HTML, there will come a point where you want to start styling your page. Perhaps you want all of
+        your titles to be underlined, or a paragraph of text to be blue. In order to know
+        what to style, CSS uses selectors. </p>
+      <h3>Class</h3>
+      <p>Class is used when you want to style multiple elements in the same way. For example, if you have multiple
+        headers in your page which you'd like to be green and underlined, you would give them all the same class
+        name (E.g. class="amazing-headers"). This saves you from writing out the same style multiple times. To select a
+        class, you must put a '.' before your class name in your CSS file. Here is an example:
+        <br />
+        <br />
+        In HTML:
+      <pre><code>&lth4 class="amazing-headers">My amazing header&lt/h4></code></pre>
+      <pre><code>&lth4 class="amazing-headers">My Amazing Header Part 2: Revenge of the Headers&lt/h4></code></pre>
+      <pre><code>&lth4 class="amazing-headers">My Amazing Header Part 3: This Time It's Personal&lt/h4></code></pre>
+      In CSS:
+      <pre><code>.amazing-headers {color: green; text-decoration: underlined;}</code></pre>
+      </p>
+      In the DOM (What is displayed):
+      <h4 class="amazing-headers">My Amazing Header</h1>
+        <h4 class="amazing-headers">My Amazing Header Part 2: Revenge of the Headers</h1>
+          <h4 class="amazing-headers">My Amazing Header Part 3: This Time It's Personal</h1>
+            <h3>ID</h3>
+            <p>ID is used when you want to specifically style one element. For example, if I want only one of my headers
+              to be red and not underlined, but the rest green and underlined, I would give my red header an ID selector
+              (E.g. ID="amazing-red-header"). To select an element's ID, you must put a '#' before your ID name in your
+              CSS file. Here is an example:
+            </p>
+            <br />
+            In HTML:
+            <pre><code>&lth4 class="amazing-headers">My amazing header&lt/h4></code></pre>
+            <pre><code>&lth4 class="amazing-headers">My Amazing Header Part 2: Revenge of the Headers&lt/h4></code></pre>
+            <pre><code>&lth4 id="amazing-red-header">My Amazing Header Part 3: This Time It's Personal&lt/h4></code></pre>
+            In CSS:
+            <pre><code>#amazing-red-header {color: red; text-decoration: none;}</code></pre>
+            </p>
+            In the DOM (What is displayed):
+            <h4 class="amazing-headers">My Amazing Header</h1>
+              <h4 class="amazing-headers">My Amazing Header Part 2: Revenge of the Headers</h1>
+                <h4 id="amazing-red-header">My Amazing Header Part 3: This Time It's Personal</h1>
+                  <h1>Recap</h1>
+                  <p>To sum up, if we want to style multiple elements within our HTML using CSS we use class selectors. If we want to style individual elements, then we use ID selectors. Inside CSS, we use a '.' before writing the name of the class, and a # before the name of an ID. A silly mnemonic I used for remembering this was ID uses a '#' because they're individualistic instagram influencers, whereas classes use a '.' because they are a grain of sand which collectively make up a beach. Ridiculous, right?</p>
+    </div>
+  </div>
+
+  <!-- this is a comment. -->
+
+</body>
+
+</html>

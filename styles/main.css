@@ -100,7 +100,6 @@ body {
 
 .blog-link:active {
   background-color: hsla(0, 100%, 100%, 1);
-  border-style: inset;
 }
 
 .headers {
@@ -117,12 +116,12 @@ body {
   text-decoration: underline;
 }
 
-#identity {
+.page {
   background-color: hsla(0, 100%, 100%, 0.8);
   padding: 20px;
 }
 
-#blog-entry-1 {
+.blog-entry {
   line-height: 1.9;
   font-size:20px;
   text-indent: 50px;
@@ -146,9 +145,8 @@ body {
   border-radius: 80px;
 }
 #sleep{
-  width:250px;
+  width:300px;
   border-radius: 80px;
-
 }
 
 .entry-header {
@@ -161,5 +159,19 @@ body {
 #back-button {
   width:100px;
   height:50px;
+}
 
+code{
+  background-color: bisque;
+  padding:2px;
+}
+
+.amazing-headers{
+color:green;
+text-decoration: underline;
+}
+
+#amazing-red-header {
+  color:red;
+  text-decoration: none;
 }
