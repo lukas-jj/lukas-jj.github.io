@@ -64,7 +64,7 @@ body {
 
 .sections {
   font-weight: 600;
-  font-size: 30px;
+  font-size: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -72,27 +72,18 @@ body {
   text-align: center;
   padding-top: 100px;
   column-gap: 50px;
+
 }
 
-#technical-blog{
-  width:800px;
+.sub-sections{
+  width:40rem;
   display:flex;
   flex-direction: column;
   background-color: hsla(0, 90%, 100%, 0.6);
-  margin-left:50px;
   border-radius: 20px;
   padding:10px;
 }
 
-#cultural-blog{
-  border-radius: 20px;
-  width:90%;
-  display:flex;
-  flex-direction: column;
-  background-color: hsla(0, 90%, 100%, 0.6);
-  margin-right:50px;
-  padding:10px;
-}
 
 #blog-links>h1 {
   text-decoration: underline;
@@ -199,6 +190,16 @@ text-decoration: underline;
   height:100px;
   padding:0px;
   background-color:white;
+  
+}
+
+.sections{
+  flex-direction: column;
+  gap: 100px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding-top: 300px;
 }
 
 }
